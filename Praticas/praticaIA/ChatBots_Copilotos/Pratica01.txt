@@ -1,0 +1,229 @@
+fala chefe ajuda nois ai
+
+Estou na area da tecnologia mais especificadamente na Ciencia da Computação , estou buscando explorar a area de cibersegurança e tenho 3h por dia para estudar. 
+
+Minha expericiecia se resume a 6 periodos do curso de cienia da computaçao no ensino superior
+
+Me ajude a decidir por onde começar. Responda assim:
+
+1. Conhecimentos necessarios para entender a teoria sobre a area
+2. Uma sugestão de quais conceitos estudar baseado em quais sao os necessarios
+3. Lugares para treinar os conhecimentos estudados
+
+Use linguagem simples, como se fosse uma conversa com um amigo.
+
+Pensou por 48s
+Fala, chefia!! 🤘🔥 Bora entrar nesse mundo da cibersegurança!
+
+Primeiro, uma coisa importante: você não está começando do zero na tecnologia. Estar no 6º período de Ciência da Computação é uma vantagem, porque você já teve contato com programação, algoritmos, sistemas e vários conceitos que aparecem na segurança.
+
+O que falta agora é aprender a olhar para esses conhecimentos com uma mentalidade diferente: como um sistema pode ser atacado, por que ele é vulnerável e como podemos protegê-lo?
+
+Minha sugestão é construir uma base sólida, experimentar tanto a parte ofensiva quanto a defensiva e depois escolher a especialização que mais te interessar.
+
+1. Conhecimentos necessários para entender a teoria
+Eu dividiria sua base em seis pilares.
+
+1. Redes de computadores
+
+Entender como os computadores se comunicam. Estude TCP/IP, UDP, DNS, HTTP/HTTPS, portas, roteamento, IP e firewalls.
+
+Por quê? Muitos ataques exploram justamente a comunicação entre computadores.
+
+2. Sistemas operacionais
+
+Principalmente Linux e Windows. Entenda processos, gerenciamento de memória, permissões, usuários, serviços e terminal.
+
+Por quê? É essencial saber como um sistema funciona para identificar comportamentos suspeitos.
+
+3. Programação e scripts
+
+Aproveite sua experiência em programação e aprenda Python, Bash e fundamentos de JavaScript e SQL.
+
+Por quê? Você poderá automatizar análises, entender falhas em aplicações e desenvolver ferramentas.
+
+4. Fundamentos de segurança
+
+Confidencialidade, integridade, disponibilidade, autenticação, autorização, vulnerabilidades, ameaças e gestão de riscos.
+
+Por quê? Esses conceitos formam a base de praticamente todas as áreas da cibersegurança.
+
+5. Criptografia
+
+Hashes, criptografia simétrica e assimétrica, certificados digitais, assinaturas digitais e TLS.
+
+Por quê? Você precisa entender como informações, senhas e comunicações são protegidas.
+
+6. Segurança de aplicações web
+
+Requisições HTTP, cookies, sessões, APIs, autenticação, SQL Injection, XSS e controle de acesso.
+
+Por quê? Aplicações web são um ótimo ambiente para entender vulnerabilidades de forma prática.
+
+Não precisa dominar tudo antes de começar a praticar. O ideal é aprender cada conceito e logo testar em um laboratório.
+
+2. Quais conceitos estudar e em qual ordem?
+Pensando nas suas 3 horas diárias, montei uma trilha inicial de 12 semanas. É um roteiro sugerido, não um prazo obrigatório.
+
+Período
+
+O que estudar
+
+Objetivo
+
+Semanas 1–2
+
+Redes TCP/IP, DNS, HTTP, portas e Linux
+
+Entender a comunicação entre máquinas
+
+Semanas 3–4
+
+Fundamentos de segurança, criptografia, permissões e autenticação
+
+Entender como a segurança funciona
+
+Semanas 5–6
+
+Aplicações web, APIs, cookies e OWASP Top 10
+
+Conhecer vulnerabilidades comuns
+
+Semanas 7–8
+
+Enumeração, análise de vulnerabilidades, Burp Suite e Nmap
+
+Explorar a segurança ofensiva em laboratórios
+
+Semanas 9–10
+
+Logs, Wireshark, monitoramento e resposta a incidentes
+
+Experimentar a segurança defensiva
+
+Semanas 11–12
+
+Laboratórios completos e documentação
+
+Consolidar o aprendizado e descobrir sua preferência
+
+Para estudar segurança web, vale usar como referência o OWASP Top 10 de 2025, que reúne riscos importantes para aplicações. 
+
+OWASP Top 10:2025
+
+Como organizar as 3 horas por dia
+Sua rotina de estudo
+
+180 min
+
+Teoria
+
+1h
+Conceitos, cursos e leitura
+Prática
+
+1h30
+Laboratórios e desafios
+Revisão
+
+30min
+Anotações e dúvidas
+Por exemplo, se o assunto do dia for DNS, estude como funciona a resolução de nomes, depois use nslookup, dig e Wireshark para observar consultas DNS na prática. No final, escreva o que você entendeu.
+
+É justamente essa ligação entre teoria e prática que vai fazer você evoluir.
+
+3. Lugares para treinar o que estudou
+Separei plataformas que realmente têm atividades práticas, não só videoaulas.
+
+Tryhackme.com Review: Legit or Scam?
+TryHackMe
+
+Iniciante
+
+Minha indicação para começar. Possui trilhas guiadas com teoria e laboratórios sobre redes, Linux, ataques e defesa. Algumas atividades são gratuitas; outras exigem assinatura. 
+
+Cyber Security 101 Training
+
+OverTheWire’s Bandit: A Hands-On Guide to Linux Commands and Security Fundamentals — Part 1 (Level 0–10) | by #CollinsBoit | Medium
+OverTheWire — Bandit
+
+Excelente para aprender terminal Linux com desafios progressivos. Começa bem simples e vai exigindo mais raciocínio. 
+
+overthewire.org
+
+Web Security Academy: Free Online Training from PortSwigger
+PortSwigger Web Security Academy
+
+Gratuita, com laboratórios sobre SQL Injection, XSS, autenticação e outras vulnerabilidades web. Perfeita para quem gosta de programação. 
+
+PortSwigger
+
+Best Online Cybersecurity Courses & Certifications | HTB Academy
+Hack The Box Academy
+
+Oferece módulos de aprendizado e desafios práticos. Comece pelos módulos básicos gratuitos antes de enfrentar máquinas mais complexas. 
+
+Hack The Box Academy
+
+Dive into Blue Team CTF Challenges - CyberDefenders
+CyberDefenders
+
+Para experimentar o lado defensivo: investigação de incidentes, análise de logs, tráfego de rede e ameaças. Possui laboratórios gratuitos e pagos. 
+
+CyberDefenders
+
+picoCTF to hold 2020 Mini Competition in October
+CyLab Security Academy (picoCTF)
+
+Plataforma gratuita da Carnegie Mellon com desafios de segurança no estilo Capture The Flag (CTF). Boa para desenvolver raciocínio e resolver problemas. 
+
+picoctf.org
+
+Uma regra importante: pratique ataques somente em plataformas de treinamento, máquinas próprias ou sistemas para os quais tenha autorização.
+
+E depois desses três meses?
+Aí você já terá mais condições de decidir que caminho seguir.
+
+Red Team / Pentest
+
+Para quem gosta de descobrir vulnerabilidades, testar sistemas e pensar como um atacante.
+
+Blue Team / SOC
+
+Para quem gosta de monitoramento, investigação, análise de ataques e proteção de sistemas.
+
+Application Security (AppSec)
+
+Para quem gosta de programação e quer desenvolver, analisar e proteger aplicações.
+
+Pelo seu contexto de Ciência da Computação, eu daria uma atenção especial a AppSec, porque aproveita bastante a experiência de programação. Mas experimentaria também Pentest e Blue Team antes de escolher.
+
+Seu primeiro desafio
+Primeira semana de estudo
+
+0 de 7 concluídos
+
+
+Dia 1: Revisar TCP/IP, DNS e HTTP
+
+
+Dia 2: Praticar comandos de terminal Linux
+
+
+Dia 3: Resolver os primeiros desafios do OverTheWire Bandit
+
+
+Dia 4: Estudar portas, serviços e conexões de rede
+
+
+Dia 5: Aprender os conceitos de ameaça, risco e vulnerabilidade
+
+
+Dia 6: Fazer um laboratório iniciante no TryHackMe
+
+
+Dia 7: Revisar tudo e escrever o que aprendeu
+
+Minha dica final, chefia: não comece tentando aprender todas as ferramentas de hacking. Comece entendendo como os sistemas funcionam e por que eles falham. As ferramentas vêm depois.
+
+Com 3 horas por dia, estudando com consistência e fazendo laboratórios, você consegue construir uma base muito boa para decidir em qual área quer se aprofundar. O objetivo dessas primeiras 12 semanas não é virar especialista, mas sair da teoria e começar a resolver problemas reais de segurança em ambientes controlados.
