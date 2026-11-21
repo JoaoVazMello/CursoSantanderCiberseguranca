@@ -17,13 +17,13 @@ A ideia consistia em colocar um avaliador humano para conversar, por meio de men
 - Um ser humano.
 - Uma máquina.
 
-O avaliador não saberia qual participante era a máquina e qual era o humano. O objetivo seria verificar se a máquina conseguiria manter uma conversa convincente o suficiente para dificultar sua identificação. **O ponto principal:** Turing propôs uma maneira de avaliar o comportamento inteligente de uma máquina, em vez de tentar definir diretamente o que significa pensar.Isso não significa que ele tenha comprovado que máquinas pensam ou possuem consciência. O teste era uma proposta teórica que se tornou uma das principais referências para o desenvolvimento da Inteligência Artificial.
+O avaliador não saberia qual participante era a máquina e qual era o humano. O objetivo seria verificar se a máquina conseguiria manter uma conversa convincente o suficiente para dificultar sua identificação. **O ponto principal:** Turing propôs uma maneira de avaliar o comportamento inteligente de uma máquina, em vez de tentar definir diretamente o que significa pensar. Isso não significa que ele tenha comprovado que máquinas pensam ou possuem consciência. O teste era uma proposta teórica que se tornou uma das principais referências para o desenvolvimento da Inteligência Artificial.
 
 ---
 
 ## 💬 2. ELIZA — Um dos primeiros chatbots da história
 
-Anos depois, entre 1964 e 1966, o cientista da computação **Joseph Weizenbaum**, pesquisador do MIT, desenvolveu o programa ELIZA. Ela foi um dos primeiros programas capazes de simular uma conversa utilizando linguagem natural. Uma de suas implementações mais conhecidas simulava o comportamento de um psicoterapeuta, respondendo às mensagens dos usuários principalmente por meio de perguntas.
+Anos depois, entre 1964 e 1966, o cientista da computação **Joseph Weizenbaum**, pesquisador do MIT, desenvolveu o programa ELIZA. ELIZA foi um dos primeiros programas capazes de simular uma conversa utilizando linguagem natural. Uma de suas implementações mais conhecidas simulava o comportamento de um psicoterapeuta, respondendo às mensagens dos usuários principalmente por meio de perguntas.
 
 ### Como ELIZA funcionava?
 
@@ -67,7 +67,7 @@ Durante o treinamento, o modelo aprende padrões que ajudam a diferenciar esses 
 
 ## 🔬 4. Deep Learning — Aprendizado Profundo
 
-O **Deep Learning (Aprendizado Profundo)** é uma subárea do Machine Learning que utiliza redes neurais artificiais compostas por várias camadas. Essas redes são inspiradas, de maneira bastante simplificada, na organização de neurônios biológicos.A principal diferença em relação a muitos métodos tradicionais de Machine Learning está na capacidade de aprender representações cada vez mais complexas dos dados.
+O **Deep Learning (Aprendizado Profundo)** é uma subárea do Machine Learning que utiliza redes neurais artificiais compostas por várias camadas. Essas redes são inspiradas, de maneira bastante simplificada, na organização de neurônios biológicos. A principal diferença em relação a muitos métodos tradicionais de Machine Learning está na capacidade de aprender representações cada vez mais complexas dos dados.
 
 ### Como funciona?
 
@@ -154,6 +154,7 @@ Nos chatbots baseados em LLMs, a maneira como fazemos uma pergunta pode influenc
 
 ```text
 Estou cursando Ciência da Computação, concluí seis períodos da graduação
+
 e quero começar a estudar cibersegurança. Tenho três horas por dia disponíveis.
 
 Ajude-me a decidir por onde começar. Responda assim:
@@ -167,7 +168,7 @@ Use linguagem simples, como em uma conversa com um amigo.
 
 Esse exemplo mostra que um prompt bem estruturado não precisa ser complicado. Basta apresentar as informações importantes e explicar o resultado esperado. **Importante:** bons prompts ajudam a direcionar a resposta, mas não garantem que ela esteja completamente correta. Sempre que necessário, é importante verificar as informações.
 
-> **Referência da prática:** [DIO — Potencializando seus estudos e carreira com IA](https://github.com/digitalinnovationone/potencializando-estudos-carreira-com-ia).
+> **Referência da prática:** [DIO — Potencializando seus estudos e carreira com IA](https://github.com/digitalinnovationone/potencializando-estudos-carreira-com-ia*).*
 
 ---
 
@@ -194,25 +195,29 @@ Na segunda atividade, a proposta foi utilizar o **Gemini**, do Google, como assi
 Crie um plano de estudos de 30 dias para mim.
 
 Área escolhida: Cibersegurança.
+
 Tópicos iniciais: utilize os tópicos definidos na Prática 01.
 
 Estruture o plano com:
+
 1. Meu objetivo de aprendizagem.
 2. Cronograma semanal (semanas 1 a 4), distribuindo os tópicos.
 3. Materiais e referências indicados para cada semana.
 
 Considere o arquivo que disponibilizei e, caso existam conexões autorizadas,
+
 utilize também conteúdos relevantes dos meus e-mails ou do meu Drive.
+
 Você também pode sugerir materiais públicos disponíveis na internet.
 
 Não exponha dados pessoais ou sensíveis.
+
 Organize o resultado em um arquivo que eu possa salvar e consultar depois.
 ```
 
 **Observação:** o acesso ao Gmail, Google Drive ou outros arquivos depende das integrações e permissões concedidas. A geração de arquivos para baixar também depende das funcionalidades disponíveis na ferramenta utilizada.
 
 > **Materiais das atividades:** os arquivos produzidos nas práticas podem ser organizados no diretório `pratica/PraticaIA/` do repositório.
-
 ---
 
 ## 🤖 9. Agentes de IA — Autonomia e execução de tarefas
@@ -233,23 +238,54 @@ De maneira simplificada, um agente pode seguir estas etapas:
 
 ### Exemplo prático — Google Antigravity
 
-Durante o curso, foi apresentado o **Google Antigravity** como exemplo de ferramenta voltada ao desenvolvimento com agentes de IA.
-
-Uma das possibilidades é utilizar uma interface de linha de comando (CLI) para interagir com ferramentas do ambiente de desenvolvimento.
-
-O seguinte comando foi apresentado para instalação no **Prompt de Comando do Windows (CMD)**:
+Durante o curso, foi apresentado o **Google Antigravity** como exemplo de ferramenta voltada ao desenvolvimento com agentes de IA. Uma das possibilidades é utilizar uma interface de linha de comando (CLI) para interagir com ferramentas do ambiente de desenvolvimento. O seguinte comando foi apresentado para instalação no **Prompt de Comando do Windows (CMD)**:
 
 ```bat
 curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && install.cmd && del install.cmd
 ```
 
-**Atenção:** esse comando baixa e executa um script. Antes de utilizá-lo, confirme se o endereço e as instruções continuam válidos na [documentação oficial do Google Antigravity](https://antigravity.google/docs/cli-getting-started?hl=pt-br) e revise o conteúdo do instalador. A instalação não foi testada nesta revisão.
+**Atenção:** esse comando baixa e executa um script. Antes de utilizá-lo, confirme se o endereço e as instruções continuam válidos na [documentação oficial do Google Antigravity](https://antigravity.google/docs/cli-getting-started?hl=pt-br) e revise o conteúdo do instalador. A instalação não foi testada nesta revisão. Isso também nos lembra de um cuidado importante na cibersegurança: **quanto mais permissões oferecemos a um agente, mais atenção precisamos ter com as ações que ele pode executar**.
 
-Isso também nos lembra de um cuidado importante na cibersegurança: **quanto mais permissões oferecemos a um agente, mais atenção precisamos ter com as ações que ele pode executar**.
+## 📝 10. Engenharia de prompts
+
+A **engenharia de prompts** consiste em elaborar instruções claras e bem estruturadas para orientar o comportamento de modelos de Inteligência Artificial, principalmente aqueles baseados em linguagem natural. A maneira como apresentamos uma tarefa pode influenciar a qualidade da resposta, pois permite fornecer contexto, objetivos, restrições e o formato esperado para o resultado.
+
+### Como os modelos processam nossas instruções?
+
+Para compreender melhor esse processo, é importante lembrar que os LLMs recebem o texto dividido em **tokens*, que são convertidos em representações numéricas. Durante o processamento, arquiteturas como os **Transformers** utilizam mecanismos de atenção para relacionar os tokens e considerar o contexto. Isso ajuda o modelo a distinguir significados diferentes de uma mesma palavra, como no exemplo:
+
+```text
+Ana pediu ao banco um empréstimo para Marcelo.
+Ana sentou no banco ao lado de Marcelo.
+```
+
+Na primeira frase, a palavra **banco** indica uma instituição financeira; na segunda, indica um assento. A arquitetura Transformer não é apenas um cálculo isolado, mas um conjunto de camadas e mecanismos matemáticos que permite construir representações contextuais do texto. Mesmo com esses recursos, o modelo ainda pode interpretar mal uma instrução ou produzir informações incorretas.
+
+### Janela de contexto
+
+Outra característica importante é a **janela de contexto**, que representa a quantidade máxima de tokens que o modelo consegue considerar em uma interação. Ela pode incluir a pergunta atual, instruções do sistema, mensagens anteriores e outros conteúdos fornecidos. Quando esse limite é atingido, o comportamento depende da ferramenta: algumas conversas podem ter mensagens antigas descartadas ou resumidas, enquanto outras podem exigir a redução do conteúdo enviado. Portanto, a janela de contexto não é necessariamente uma memória permanente do modelo.
+
+### Estrutura de um bom prompt
+
+Uma maneira prática de organizar solicitações é dividir o prompt em partes: **instrução inicial → contexto → exemplos → dados de entrada → formato da saída**. Nem toda pergunta exige todas essas etapas, mas essa estrutura pode ajudar bastante em tarefas mais específicas. Por exemplo, ao pedir a elaboração de um plano de estudos, podemos informar nosso nível de conhecimento, tempo disponível, temas desejados e como queremos receber o cronograma.
 
 ---
 
-## 🔐 10. Qual é a relação da IA com a Cibersegurança?
+## 🛠️ 11. Utilizando agentes de IA com mais detalhes
+
+Os **agentes de IA** representam uma forma de aplicar modelos de linguagem em tarefas que exigem mais do que produzir respostas em uma conversa. Dependendo de suas ferramentas e permissões, um agente pode consultar arquivos, editar códigos, executar comandos, verificar resultados e continuar trabalhando em diferentes etapas para alcançar um objetivo. Isso não significa que todos os agentes funcionem de forma autônoma ou possuam acesso irrestrito ao computador.
+
+### O que é um harness?
+
+Para que um modelo consiga interagir com programas e recursos externos, pode ser utilizado um **harness**, isto é, uma estrutura de software que organiza a execução do agente. Essa estrutura pode reunir instruções, acesso a ferramentas, controle do contexto, gerenciamento de permissões e mecanismos para acompanhar os resultados das ações. Uma analogia útil é pensar no LLM como o componente responsável por interpretar e gerar decisões, enquanto o harness fornece os meios controlados para colocar essas decisões em prática. Essa divisão é apenas uma simplificação, já que diferentes sistemas podem distribuir essas funções de maneiras distintas.
+
+### Exemplo prático — Google Antigravity
+
+Para explorar esse tipo de ferramenta durante os estudos, utilizei o **Google Antigravity** como ambiente de desenvolvimento assistido por agentes de IA. A proposta é observar como o agente pode receber uma tarefa relacionada a um projeto de software, analisar os arquivos disponíveis e sugerir ou realizar modificações de acordo com as permissões concedidas. Por se tratar de uma ferramenta que pode interagir com o ambiente de trabalho, é importante verificar os comandos, alterações e acessos solicitados antes de autorizá-los, especialmente ao lidar com projetos ou dados sensíveis.
+
+---
+
+## 🔐 12. Qual é a relação da IA com a Cibersegurança?
 
 A Inteligência Artificial também possui diversas aplicações na área de Cibersegurança.
 
@@ -269,7 +305,7 @@ Além disso, as mesmas tecnologias também podem ser utilizadas por agentes mali
 
 ---
 
-## 📝 11. Resumo dos conceitos
+## 📝 13. Resumo dos conceitos
 
 | Conceito | Descrição |
 |---|---|
@@ -283,6 +319,9 @@ Além disso, as mesmas tecnologias também podem ser utilizadas por agentes mali
 | Chatbot | Sistema para interagir com usuários por meio de conversas, com regras ou IA. |
 | Copiloto | Assistente integrado a atividades e ferramentas para ajudar durante o trabalho. |
 | Agente de IA | Sistema capaz de planejar etapas e utilizar ferramentas para executar ações autorizadas. |
+| Engenharia de prompts | Prática de estruturar instruções para orientar as respostas de sistemas de IA. |
+| Janela de contexto | Limite de tokens que um modelo pode considerar durante o processamento de uma interação. |
+| Harness | Estrutura de software que conecta modelos de IA a ferramentas, contexto e mecanismos de controle. |
 
 ### Relação entre as tecnologias
 
